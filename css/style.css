@@ -1,0 +1,131 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  font-size: 7;
+}
+
+.myDiv, .head{
+  border: 3px solid black;
+  margin-bottom: 10px;
+  background-color: silver;
+  font-family: "Comic Sans MS";
+}
+
+.head{ margin-top: 0px;
+       border-top:0px;
+       border-right: 0px;
+       float: right;
+       clear: left;
+       padding: 3px;
+
+ } 
+ 
+#heading{
+	text-align: center;
+	font-family: "Comic Sans MS";
+}
+
+p{
+clear:both;
+}
+#h1{background-color:rgba(255, 0, 0, 0.4);
+
+}
+
+#h2{background-color:red;
+    color: white;
+
+}
+
+#h3{background-color: yellow;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: silver;
+  border-radius: 0;
+  border: 0;
+}
+
+
+
+.navbar-brand {
+  padding-top: 0px;
+  font-family: "Comic Sans MS";
+}
+
+.navbar-brand h1 { /* Food, LLC heading */
+  font-family: "Comic Sans MS";
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+
+/* Large devices only */
+@media (min-width: 992px) {
+  .myDiv{
+    float: left;
+    margin: 40px;
+    width: 25%;
+  }
+}
+
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+  #d1 {
+    width: 49%;
+  float:left;
+  margin: 3px;
+  }
+  #d2 {
+    width: 49%;
+    float: left;
+  margin: 3px;
+  }
+  #d3 {
+     width:100%;
+     float: left;
+ margin: 3px; 
+  }
+  }
+
+
+/* Small devices only */
+@media (max-width: 767px) {
+#d1{
+  width:100%;
+
+}
+#d2{
+width:100%;
+
+}
+#d3{
+width:100%;
+
+}
+}
